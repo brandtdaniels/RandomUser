@@ -1,0 +1,12 @@
+use_frameworks!
+
+target 'RandomUser_Example' do
+  pod 'RandomUser', :path => '../'
+
+  target 'RandomUser_Tests' do
+    inherit! :search_paths
+
+    pod 'Specta'
+  pod 'Expecta'
+  end
+end
