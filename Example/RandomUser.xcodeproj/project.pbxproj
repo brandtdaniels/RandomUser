@@ -7,13 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3D0BACED1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0BACEC1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.m */; };
+		3D599F9A1DFC8E700068F3FC /* BCDUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D599F981DFC8E700068F3FC /* BCDUserTableViewCell.m */; };
+		3D599F9B1DFC8E700068F3FC /* BCDUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3D599F991DFC8E700068F3FC /* BCDUserTableViewCell.xib */; };
+		3D599F9E1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D599F9D1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.m */; };
+		3D599FA11DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D599FA01DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.m */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* BCDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* BCDAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* BCDViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* BCDViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -37,6 +41,15 @@
 
 /* Begin PBXFileReference section */
 		371794BF6586AA132EDAC301 /* Pods_RandomUser_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RandomUser_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3D0BACEB1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCDRandomUsersTableViewController.h; sourceTree = "<group>"; };
+		3D0BACEC1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCDRandomUsersTableViewController.m; sourceTree = "<group>"; };
+		3D599F971DFC8E700068F3FC /* BCDUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCDUserTableViewCell.h; sourceTree = "<group>"; };
+		3D599F981DFC8E700068F3FC /* BCDUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCDUserTableViewCell.m; sourceTree = "<group>"; };
+		3D599F991DFC8E700068F3FC /* BCDUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BCDUserTableViewCell.xib; sourceTree = "<group>"; };
+		3D599F9C1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "BCDUserTableViewCell+Additions.h"; sourceTree = "<group>"; };
+		3D599F9D1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "BCDUserTableViewCell+Additions.m"; sourceTree = "<group>"; };
+		3D599F9F1DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BCDRandomUserDetailTableViewController.h; sourceTree = "<group>"; };
+		3D599FA01DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BCDRandomUserDetailTableViewController.m; sourceTree = "<group>"; };
 		521DB6D3390EEBC3A241069D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* RandomUser_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RandomUser_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -48,8 +61,6 @@
 		6003F59B195388D20070C39A /* RandomUser-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RandomUser-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* BCDAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCDAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* BCDAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCDAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* BCDViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BCDViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* BCDViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BCDViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* RandomUser_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RandomUser_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -132,10 +143,17 @@
 			children = (
 				6003F59C195388D20070C39A /* BCDAppDelegate.h */,
 				6003F59D195388D20070C39A /* BCDAppDelegate.m */,
-				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* BCDViewController.h */,
-				6003F5A6195388D20070C39A /* BCDViewController.m */,
+				3D599F9F1DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.h */,
+				3D599FA01DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.m */,
+				3D0BACEB1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.h */,
+				3D0BACEC1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.m */,
+				3D599F971DFC8E700068F3FC /* BCDUserTableViewCell.h */,
+				3D599F981DFC8E700068F3FC /* BCDUserTableViewCell.m */,
+				3D599F991DFC8E700068F3FC /* BCDUserTableViewCell.xib */,
+				3D599F9C1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.h */,
+				3D599F9D1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.m */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
+				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F594195388D20070C39A /* Supporting Files */,
 			);
 			name = "Example for RandomUser";
@@ -244,7 +262,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = BCD;
-				LastUpgradeCheck = 0720;
+				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "Brandt Daniels";
 				TargetAttributes = {
 					6003F5AD195388D20070C39A = {
@@ -276,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D599F9B1DFC8E700068F3FC /* BCDUserTableViewCell.xib in Resources */,
 				873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */,
 				6003F5A9195388D20070C39A /* Images.xcassets in Resources */,
 				6003F598195388D20070C39A /* InfoPlist.strings in Resources */,
@@ -390,9 +409,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3D599F9A1DFC8E700068F3FC /* BCDUserTableViewCell.m in Sources */,
 				6003F59E195388D20070C39A /* BCDAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* BCDViewController.m in Sources */,
+				3D0BACED1DFB32BC0084AAC1 /* BCDRandomUsersTableViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
+				3D599FA11DFC9BF70068F3FC /* BCDRandomUserDetailTableViewController.m in Sources */,
+				3D599F9E1DFC909E0068F3FC /* BCDUserTableViewCell+Additions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -447,14 +469,19 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
@@ -487,13 +514,18 @@
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
 				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
@@ -513,12 +545,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RandomUser/RandomUser-Prefix.pch";
 				INFOPLIST_FILE = "RandomUser/RandomUser-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Debug;
@@ -529,12 +563,14 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				DEVELOPMENT_TEAM = "";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "RandomUser/RandomUser-Prefix.pch";
 				INFOPLIST_FILE = "RandomUser/RandomUser-Info.plist";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 				WRAPPER_EXTENSION = app;
 			};
 			name = Release;
